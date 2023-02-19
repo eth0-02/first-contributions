@@ -1,0 +1,12 @@
+name: linux user
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: jakejarvis/badges@master
+      with:
+        subject: linux
+        status: on linux
+        color: blue
