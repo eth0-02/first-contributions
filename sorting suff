@@ -1,0 +1,2 @@
+cosnt sorting stuff = ['1', '3', '4'];
+sorting _stuff.sort();
